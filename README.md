@@ -50,5 +50,6 @@ For ffmpeg to Install and use you need to follow :
 
 References....:
 1. https://s3bubble.com/installing-ffmpeg-on-centos-6-6-in-usrlocalbin/
+
 2. http://trac.ffmpeg.org/wiki/CompilationGuide/Centos
 ***********************     ffmpeg-install-madeeasy    ***************************
