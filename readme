@@ -34,11 +34,11 @@ For ffmpeg to Install and use you need to follow :
 
 13. After all you can make 'ffmpeg' to run in normal user mode or to root user mode by copying 'ffmpeg' binary files...
 14. For #13 you just type 'which ffmpeg' and copy that binary file to the respected locations you want...like 
-    cp /usr/sbin/ffmpeg /usr/bin/ffmpeg
-    cp /usr/bin/ffmpeg /usr/sbin/ffmpeg
-    cp /root/ffmpeg_build /home/'user name' #viceversa
-    cp /root/ffmpeg_sources /home/'user name' #viceversa
-    cp /root/bin /home/'user name' #viceversa
+    cp -rf /usr/local/bin/ffmpeg /usr/bin
+    cp -rf /usr/local/bin/ffmpeg /usr/sbin
+    cp -rf /root/ffmpeg_build /home/'user name' #viceversa
+    cp -rf /root/ffmpeg_sources /home/'user name' #viceversa
+    cp -rf /root/bin /home/'user name' #viceversa
 15. feel free to ask if u stuck.... naveen.mh08@gmail.com
 16. Thank you :)
 ***********************************     ffmpeg-install-madeeasy    ***************************************
